@@ -1,34 +1,3 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# The following keys must be escaped otherwise they will not be retrieved by
-# the default I18n backend:
-#
-# true, false, on, off, yes, no
-#
-# Instead, surround them with single quotes.
-#
-# en:
-#   'true': 'foo'
-#
-# To learn more, please read the Rails Internationalization guide
-# available at https://guides.rubyonrails.org/i18n.html.
-
 en:
   ruby_rails: "Ruby Rails Tutorial"
   author: "Michael Hartl"
@@ -40,7 +9,20 @@ en:
   about: "About"
   help: "Help"
   home: "Home"
+  name: "Name"
+  password: "Password"
+  confirmation: "Confirmation"
+  create_acc: "Create my account"
   sign_up: "Sign up"
+  log_in: "Login"
+  log_out: "Logout"
+  acc: "Account"
+  profile: "Profile"
+  setting: "Setting"
+  invalid_email_password_combination: "Invalid email password combination"
   welcome_msg: "Welcome to the Sample App"
   center_title: "This is the home page for the <a href='%{ror_link}'>Ruby Rails Tutorial</a> sample application."
   help_msg: "Get help on the Ruby on Rails Tutorial at the <a href='%{link_book}'><em>Ruby on Rails Tutorial</em> book</a>. To get help on this sample app, see the <a href='%{link_help}'><em>Ruby on Rails Tutorial</em> page</a>"
+  edit_user: "Edit user"
+  update_profile: "Update your profile"
+  save_changes: "Save changes"
