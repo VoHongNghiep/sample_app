@@ -30,4 +30,17 @@
 # available at https://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  ruby_rails: "Ruby Rails Tutorial"
+  author: "Michael Hartl"
+  base_title: "Ruby or rails tutorial"
+  footer: "<a href='%{ror_link}'>Ruby Rails Tutorial</a> by <a href='%{author}'>Michael Hartl</a>"
+  contact_msg: "Contact the Ruby on Rails Tutorial about the sample app at the"
+  contact_page: "contact page"
+  contact: "Contact"
+  about: "About"
+  help: "Help"
+  home: "Home"
+  sign_up: "Sign up"
+  welcome_msg: "Welcome to the Sample App"
+  center_title: "This is the home page for the <a href='%{ror_link}'>Ruby Rails Tutorial</a> sample application."
+  help_msg: "Get help on the Ruby on Rails Tutorial at the <a href='%{link_book}'><em>Ruby on Rails Tutorial</em> book</a>. To get help on this sample app, see the <a href='%{link_help}'><em>Ruby on Rails Tutorial</em> page</a>"
