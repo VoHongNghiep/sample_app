@@ -1,0 +1,12 @@
+<footer class="footer">
+  <small>
+    <%= sanitize t("footer", ror_link: Settings.link_ror, author: Settings.link_author) %>
+  </small>
+  <nav>
+    <ul>
+      <li><%= link_to t("about"), about_path %></li>
+      <li><%= link_to t("contact"), contact_path %></li>
+      <li><%= link_to t("news"), "#" %></li>
+    </ul>
+  </nav>
+</footer>

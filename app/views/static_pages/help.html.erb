@@ -1,0 +1,6 @@
+<% provide(:title, t("help")) %>
+<h1><%= t("help") %></h1>
+<p>
+  <%= sanitize t("help_msg", link_book: Settings.link_book, link_help:
+  Settings.link_help) %>
+</p>
