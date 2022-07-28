@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_07_21_090627) do
+ActiveRecord::Schema.define(version: 2022_07_28_083221) do
 
   create_table "microposts", charset: "utf8mb3", force: :cascade do |t|
     t.text "content"
@@ -26,6 +26,7 @@ ActiveRecord::Schema.define(version: 2022_07_21_090627) do
     t.datetime "updated_at", precision: 6, null: false
     t.string "password_digest"
     t.string "remember_digest"
+    t.boolean "admin"
   end
 
 end

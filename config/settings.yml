@@ -7,3 +7,5 @@ regex_email: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
 min_pass: 6
 min_leng: 10
 max_leng: 255
+size_grava: 80
+max_page: 2
