@@ -78,6 +78,12 @@ vi:
   empty_micropost: "Không có bài viết"
   view_profile: "Trang thông tin của tôi"
   micropost: "bài viết"
+  follow: "Theo dõi"
+  unfollow: "Bỏ theo dõi"
+  flwing: "Theo dõi"
+  flwers: "Người theo dõi"
+  follow_failed: "Theo dõi thất bại"
+  unfollow_failed: "Bỏ theo dõi thất bại"
   activerecord:
     errors:
       models:
