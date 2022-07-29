@@ -13,10 +13,7 @@ class UsersController < ApplicationController
   end
 
   def show
-    return if @user
-
-    flash[:danger] = t "user_not_found"
-    redirect_to root_path
+    @pagy, @microposts = pagy @user.microposts, items: Settings.max_page
   end
 
   def create
@@ -62,8 +59,8 @@ class UsersController < ApplicationController
     return if logged_in?
 
     store_location
-    flash[:danger] = t "ple_log"
-    redirect_to login_path
+    flash[:danger] = t ".login_message"
+    redirect_to login_url
   end
 
   def correct_user

@@ -65,3 +65,24 @@ vi:
   reset_msg1: "Để đặt lại mật khẩu của bạn, hãy nhấp vào liên kết bên dưới: "
   msg_expired: "Liên kết này sẽ hết hạn sau hai giờ."
   reset_msg2: "Nếu bạn không yêu cầu đặt lại mật khẩu của mình, vui lòng bỏ qua email này và mật khẩu của bạn sẽ vẫn như cũ"
+  pl_compose: "Tạo bài viết mới ..."
+  post: "Tạo"
+  posted: "Đăng lên"
+  ago: "trước"
+  del_post: "Xóa bài viết ?"
+  delete: "Xóa"
+  micropost_feed: "Bản tin bài viết"
+  micropost_create: "Tạo bài viết thành công"
+  micropost_delete: "Xóa bài viết thành công"
+  micropost_delete_fail: "Xóa bị lỗi"
+  empty_micropost: "Không có bài viết"
+  view_profile: "Trang thông tin của tôi"
+  micropost: "bài viết"
+  activerecord:
+    errors:
+      models:
+        micropost:
+          attributes:
+            image:
+              valid_image: "phải là một định dạng hình ảnh hợp lệ"
+              size_image: "phải nhỏ hơn 5MB"

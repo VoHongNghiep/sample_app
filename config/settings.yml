@@ -10,3 +10,7 @@ max_leng: 255
 size_grava: 80
 max_page: 2
 email_expired: 2
+image_type: ["image/jpeg", "image/gif", "image/png"]
+image_accept: "image/jpeg, image/gif, image/png"
+resize_to_limit: [500, 500]
+size_image: 5
