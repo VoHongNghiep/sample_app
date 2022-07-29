@@ -1,4 +1,5 @@
 en:
+  app_name: "Sample app"
   ruby_rails: "Ruby Rails Tutorial"
   author: "Michael Hartl"
   base_title: "Ruby or rails tutorial"
@@ -39,3 +40,10 @@ en:
   delete_success: "Delete success"
   alert_admin_user: "Permission denied"
   update_fail: "Update fail"
+  check_active_email: "Please check your email to activate your account"
+  activate_success: "Active success"
+  invalid_link: "Invalid link"
+  account_activation: "Account activation"
+  active: "Active"
+  hi: "Hi"
+  active_msg: "Welcome to the Sample App! Click on the link below to activate your account:"

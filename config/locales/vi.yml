@@ -1,4 +1,5 @@
 vi:
+  app_name: "Sample app"
   base_title: "Hướng dẫn Ruby on Rails"
   contact: "Liên hệ"
   contact_msg: "Thông tin về hướng dẫn Ruby on rails trong sample app tại"
@@ -43,3 +44,10 @@ vi:
   delete_success: "Xóa thành công"
   alert_admin_user: "Không phải admin"
   update_fail: "Cập nhật không thành công"
+  check_active_email: "Hãy kiểm tra email và kích hoạt tài khoản"
+  activate_success: "Kích hoạt thành công"
+  invalid_link: "Không tồn tại đường dẫn"
+  account_activation: "Kích hoạt tài khoản"
+  active: "Kích hoạt"
+  hi: "Xin chào"
+  active_msg: "Chào mừng tới Sample App! Nhấn vào link dưới đây để kích hoạt tài khoản của bạn:"

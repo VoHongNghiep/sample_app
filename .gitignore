@@ -72,3 +72,6 @@ yarn-debug.log*
 
 log/development.log
 test/
+
+# Ignore application configuration
+/config/application.yml
