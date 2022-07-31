@@ -9,3 +9,4 @@ min_leng: 10
 max_leng: 255
 size_grava: 80
 max_page: 2
+email_expired: 2
