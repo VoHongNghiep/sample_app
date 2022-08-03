@@ -61,3 +61,24 @@ en:
   reset_msg1: "To reset your password click the link below: "
   msg_expired: "This link will expire in two hours."
   reset_msg2: "If you did not request your password to be reset, please ignore this email and your password will stay as it is."
+  pl_compose: "Compose new micropost..."
+  post: "Post"
+  posted: "Posted"
+  ago: "ago"
+  del_post: "You sure ?"
+  delete: "Delete"
+  micropost_feed: "Micropost feed"
+  micropost_create: "Micropost created!"
+  micropost_delete: "Micropost deleted!"
+  micropost_delete_fail: "Delete fail!"
+  empty_micropost: "Empty micropost"
+  view_profile: "View my profile"
+  micropost: "micropost"
+  activerecord:
+    errors:
+      models:
+        micropost:
+          attributes:
+            image:
+              valid_image: "Must be a valid image format"
+              size_image: "Should be less than 5MB"

@@ -1,9 +1,8 @@
 class StaticPagesController < ApplicationController
-  def home; end
+  def home
+    return unless logged_in?
 
-  def help; end
-
-  def contact; end
-
-  def about; end
+    @micropost = current_user.microposts.build
+    @pagy, @feed_items = pagy current_user.feed
+  end
 end
