@@ -74,6 +74,12 @@ en:
   empty_micropost: "Empty micropost"
   view_profile: "View my profile"
   micropost: "micropost"
+  follow: "Follow"
+  unfollow: "Unfollow"
+  flwing: "Following"
+  flwers: "Follower"
+  follow_failed: "Follow failed"
+  unfollow_failed: "Unfollow failed"
   activerecord:
     errors:
       models:
